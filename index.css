@@ -10,7 +10,7 @@ h1{
 .color{
     color: red;
 }
-section{
+.flexible{
     display: flex;
     margin-bottom: 150px;
 }
@@ -37,4 +37,33 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.thirdpart{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-items{
+    width: 40%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+    
+}
+#expid1{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue cyan);
+    border-image-slice: 1;
+}
+#expid2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: small;
 }

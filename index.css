@@ -12,16 +12,15 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .firstpart{
     width: 50%;
-    padding-left: 5%;
+    padding: 5%;
 }
 .firstpart img{
     width: 350px;
     height: 350px;
-    float: right;
-    margin: auto;
 }
 .link-button{
     text-decoration: none;
@@ -33,4 +32,9 @@ section{
 .topbanner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dreambig{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }

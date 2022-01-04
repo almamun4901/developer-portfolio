@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.color{
+    color: red;
+}
+section{
+    background-image: url(images/sekiro.png);
+    display: flex;
+}
+.firstpart{
+    width: 50%;
+    padding-left: 5%;
+}
+.firstpart img{
+    width: 50%;
+    height: 100%;
+    float: right;
+    margin: auto;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(purple , blue);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.background{
+    
+}
